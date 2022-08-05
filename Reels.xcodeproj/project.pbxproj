@@ -56,8 +56,12 @@
 		044A3A4B289D671C00BE8D3F /* Reels */ = {
 			isa = PBXGroup;
 			children = (
-				044A3A4C289D671C00BE8D3F /* AppDelegate.swift */,
-				044A3A4E289D671C00BE8D3F /* SceneDelegate.swift */,
+				044A3A6C289D685E00BE8D3F /* Helper */,
+				044A3A6B289D684B00BE8D3F /* Core */,
+				044A3A6A289D683F00BE8D3F /* Network */,
+				044A3A69289D683400BE8D3F /* Extension */,
+				044A3A65289D681600BE8D3F /* ShowModule */,
+				044A3A64289D67FD00BE8D3F /* HomeModule */,
 				044A3A50289D671C00BE8D3F /* ViewController.swift */,
 				044A3A52289D671C00BE8D3F /* Main.storyboard */,
 				044A3A55289D671E00BE8D3F /* Assets.xcassets */,
@@ -65,6 +69,98 @@
 				044A3A5A289D671E00BE8D3F /* Info.plist */,
 			);
 			path = Reels;
+			sourceTree = "<group>";
+		};
+		044A3A60289D67E000BE8D3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044A3A61289D67E800BE8D3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044A3A62289D67EC00BE8D3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		044A3A64289D67FD00BE8D3F /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				044A3A62289D67EC00BE8D3F /* ViewModel */,
+				044A3A61289D67E800BE8D3F /* View */,
+				044A3A60289D67E000BE8D3F /* Model */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		044A3A65289D681600BE8D3F /* ShowModule */ = {
+			isa = PBXGroup;
+			children = (
+				044A3A68289D682C00BE8D3F /* ViewModel */,
+				044A3A67289D682800BE8D3F /* View */,
+				044A3A66289D682100BE8D3F /* Model */,
+			);
+			path = ShowModule;
+			sourceTree = "<group>";
+		};
+		044A3A66289D682100BE8D3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044A3A67289D682800BE8D3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044A3A68289D682C00BE8D3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		044A3A69289D683400BE8D3F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		044A3A6A289D683F00BE8D3F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		044A3A6B289D684B00BE8D3F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				044A3A4C289D671C00BE8D3F /* AppDelegate.swift */,
+				044A3A4E289D671C00BE8D3F /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		044A3A6C289D685E00BE8D3F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
