@@ -19,6 +19,7 @@
 		04A7269C289DE4D300007C51 /* client_56956782821-r4tsee7e80ji8n1bqkeuco8mpavrb643.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A7269B289DE4D300007C51 /* client_56956782821-r4tsee7e80ji8n1bqkeuco8mpavrb643.apps.googleusercontent.com.plist */; };
 		04A7269E289DE8A000007C51 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7269D289DE8A000007C51 /* NetworkManager.swift */; };
 		04A726AA28A05ABF00007C51 /* PlaylistModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A726A928A05ABF00007C51 /* PlaylistModelResponse.swift */; };
+		04A726AC28A05B7C00007C51 /* UserSavedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A726AB28A05B7C00007C51 /* UserSavedData.swift */; };
 		5BCA47A3C31090CEAC929031 /* Pods_Reels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98F34E70CA0E82FBB088CE5 /* Pods_Reels.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		04A7269B289DE4D300007C51 /* client_56956782821-r4tsee7e80ji8n1bqkeuco8mpavrb643.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_56956782821-r4tsee7e80ji8n1bqkeuco8mpavrb643.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		04A7269D289DE8A000007C51 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		04A726A928A05ABF00007C51 /* PlaylistModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModelResponse.swift; sourceTree = "<group>"; };
+		04A726AB28A05B7C00007C51 /* UserSavedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSavedData.swift; sourceTree = "<group>"; };
 		9424A497A1FD558000AEF7F8 /* Pods-Reels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reels.debug.xcconfig"; path = "Target Support Files/Pods-Reels/Pods-Reels.debug.xcconfig"; sourceTree = "<group>"; };
 		F3CA9D1BABE0F97507F59280 /* Pods-Reels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reels.release.xcconfig"; path = "Target Support Files/Pods-Reels/Pods-Reels.release.xcconfig"; sourceTree = "<group>"; };
 		F98F34E70CA0E82FBB088CE5 /* Pods_Reels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +185,7 @@
 		044A3A6C289D685E00BE8D3F /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				04A726AB28A05B7C00007C51 /* UserSavedData.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				044A3A4F289D671C00BE8D3F /* SceneDelegate.swift in Sources */,
 				044A3A6E289DCE6900BE8D3F /* HomeViewModel.swift in Sources */,
 				044A3A78289DCFF600BE8D3F /* BaseViewModel.swift in Sources */,
+				04A726AC28A05B7C00007C51 /* UserSavedData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
